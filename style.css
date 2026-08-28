@@ -60,4 +60,7 @@
 .artist-intro img,
 .split img {
   object-fit: contain;
+}.gallery-break {
+  grid-column: 1 / -1;
+  height: 80px;
 }
