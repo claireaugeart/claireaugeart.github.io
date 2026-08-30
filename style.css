@@ -72,4 +72,7 @@
 .cover .button {
   position: relative;
   z-index: 6;
+}.cover-art,
+.cover-art img {
+  pointer-events: none;
 }
