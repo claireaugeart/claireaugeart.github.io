@@ -78,4 +78,9 @@
 }.cover h1 {
   font-size: clamp(26px, 2.8vw, 42px);
   white-space: nowrap;
+}.gallery-heading {
+  max-width: 1180px;
+  margin: 70px auto 30px;
+  padding: 0 28px;
+  box-sizing: border-box;
 }
