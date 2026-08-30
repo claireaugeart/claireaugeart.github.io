@@ -75,4 +75,7 @@
 }.cover-art,
 .cover-art img {
   pointer-events: none;
+}.cover h1 {
+  font-size: clamp(26px, 2.8vw, 42px);
+  white-space: nowrap;
 }
