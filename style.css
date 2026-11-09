@@ -84,3 +84,36 @@
   padding: 0 28px;
   box-sizing: border-box;
 }
+
+
+/* Affichage de Rêve de toi sur téléphone */
+@media (max-width: 850px) {
+  .cover {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .cover-copy {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .cover-art {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .cover-art img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    transform: none;
+    object-fit: contain;
+  }
+
+  .cover h1 {
+    white-space: normal;
+  }
+}
