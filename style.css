@@ -117,3 +117,31 @@
     white-space: normal;
   }
 }
+
+/* Rêve de toi : photo visible en premier sur téléphone */
+@media (max-width: 850px) {
+  .cover {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .cover-art {
+    order: -1;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .cover-art img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
